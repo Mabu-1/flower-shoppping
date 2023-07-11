@@ -44,7 +44,7 @@ font-weight: 400;
 /* header related styes */
 .header {
     background-color: rgba(229, 84, 115, 0.10);
-   
+   margin-bottom: 170px;
    
 }
 
@@ -89,18 +89,18 @@ font-weight: 400;
 
 /* main section styles */
 main  #main{
-    max-width: 1140px;
+    max-width: 1250px;
     margin: 0 auto;
+    
 }
 
 main section {
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 /* featured styles */
-.featured{
-    margin-top: 140px;
-}
+
+
 
 .featured-container {
     margin-top: 48px;
@@ -123,6 +123,7 @@ main section {
   width: 400px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
+  
 }
 .image-2
 {
@@ -143,6 +144,7 @@ main section {
 {
     
     align-items: center;
+    margin-top: 110px;
 }
 
 .featured-title
@@ -163,19 +165,12 @@ width: 1940px;
 }
 .delivery-container
 {
-    
-    
+
     display: flex;
    
-   
-    gap: 300px;
+    gap: 100px;
     
     margin-top: 130px;
-
-    
-
-
-  
 }
 .delivery-info
 {
@@ -186,7 +181,7 @@ width: 1940px;
 }
 .delivery-image
 {
-    margin-left: 27px;
+    margin-left: 157px;
 }
 .delivery-title
 {
@@ -196,7 +191,8 @@ text-align: center;
 font-size: 15px;
 
 font-weight: 600;
-width: 140px;
+width: 290px;
+margin-left: 60px;
 
 }
 
@@ -206,6 +202,7 @@ width: 140px;
 {
     border-radius: 8px;
 background: rgba(229, 84, 115, 0.05);
+margin-bottom: 120px;
 
 }
 .sign-up-container
@@ -213,16 +210,115 @@ background: rgba(229, 84, 115, 0.05);
     display: flex;
     gap: 186px;
     align-items: center;
+   
     
 }
-#sign-up-info-1
+.sign-up-info-1
 {
-    width: 700px;
+    
+    margin-top: 100px ;
+    margin-left: 290px;
+    
+    
    
 }
-/* footer styles */
- 
+#sign-up-info-1-description
+{
+    width: 670px;
+    
+}
+.sign-up-info-2
+{
+    
+    margin-top: 100px ;
+}
 
+#sign-up-btn
+{
+    margin-left: 230px;
+    margin-top: 50px;
+}
+
+
+/* instragram styles */
+
+.instragram-images
+{
+
+    display: flex;
+    gap: 28px;
+}
+
+/* contact styles */
+.contact
+{
+    background: url("../images/Rectangle\ 9.png");
+   
+    height: 440px;
+    border-radius: 8px;
+   
+}
+#contact-title
+{
+    padding: 122px 300px 0px 300px ;
+    
+}
+
+.email
+{
+    margin-left: 230px;
+    width: 700px;
+    height: 64px;
+    border: 0;
+    border-radius: 8px;
+background: #FFF;
+    
+}
+
+#subscribe
+{
+      margin-left: 30px;
+    
+}
+/* footer styles */
+ footer{
+    background: #111010;
+    height: 450px;
+ }
+
+ .footer-title
+ {
+    color: #E55473;
+    
+    font-size: 48px;
+   
+    font-weight: 800;
+    padding-top: 140px;
+    padding-left: 670px;
+    
+ }
+
+ .footer-description
+ {
+    color: rgba(255, 255, 255, 0.90);
+      margin-top: -30px;
+font-size: 18px;
+
+font-weight: 400;
+     width: 500px;
+     padding: 0px 600px;
+
+ }
+ .copyright
+ {
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+padding-top: 40px;
+font-size: 16px;
+
+font-weight: 400;
+
+ }
 
 
 
