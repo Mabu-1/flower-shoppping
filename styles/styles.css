@@ -54,6 +54,7 @@ font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .banner-content {
@@ -61,8 +62,9 @@ font-weight: 400;
 }
 
 .banner .profile-pic {
-    width: 550px;
-    margin-right: 100px;
+    width: 450px;
+    margin-right: 50px;
+   
 }
 
 
@@ -294,7 +296,7 @@ background: #FFF;
    
     font-weight: 800;
     padding-top: 140px;
-    padding-left: 670px;
+    padding-left: 600px;
     
  }
 
@@ -306,7 +308,7 @@ font-size: 18px;
 
 font-weight: 400;
      width: 500px;
-     margin: 0px 600px;
+     margin: 0px 510px;
 
  }
  .copyright
@@ -317,6 +319,7 @@ margin-top: 40px;
 font-size: 16px;
 
 font-weight: 400;
+margin-left: 10px;
 
  }
 
