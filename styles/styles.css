@@ -89,7 +89,7 @@ font-weight: 400;
 
 /* main section styles */
 main {
-    max-width: 1920px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -98,11 +98,7 @@ main section {
 }
 
 /* featured styles */
-.featured {
-    padding: 0px 230px;
-    
-    
-}
+
 
 .featured-container {
     margin-top: 48px;
@@ -150,5 +146,57 @@ main section {
 {
     margin-top: 32px;
 }
+
+
+/* delivery styles */
+.delivery
+{
+    padding: 0px 130px;
+    border-radius: 8px;
+    width: 970px;
+background: rgba(39, 39, 39, 0.05);
+}
+.delivery-container
+{
+    
+    
+    display: flex;
+
+   
+    gap: 300px;
+    height: 250px;
+
+
+  
+}
+.delivery-info
+{
+    align-items: center;
+    margin-top: 70px;
+    
+}
+.delivery-image
+{
+    margin-left: 27px;
+}
+.delivery-title
+{
+    color: rgba(39, 39, 39, 0.80);
+text-align: center;
+
+font-size: 15px;
+
+font-weight: 600;
+width: 140px;
+
+}
+
+
+/* sign-up styles */
+
 /* footer styles */
  
+
+
+
+
